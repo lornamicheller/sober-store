@@ -1,4 +1,4 @@
-/* global $ */
+/* global $ */ 
 
 
 // // variables
@@ -36,6 +36,8 @@
 
 // console.log(square(2));
 
-$('.services').on('click', () => {
-  ('.active').removeClass('active');
+$(document).on('click', 'ul li a', function() {
+  $(this).addClass('active');
 })
+
+console.log('hello');
