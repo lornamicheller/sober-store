@@ -4,30 +4,30 @@ $(document).ready(() => {
 
 $(document).on('click', 'ul li', function () {
   $(this).addClass('active').siblings().removeClass('active');
+  $('body').removeClass('active');
 })
 
-$('#shop-button').on('mouseenter', () => {
+$('#shop-button').on('click', () => {
   $('.shop-box').slideToggle(300);
 })
 
-$('#shop-button').on('mouseleave', () => {
-  $('.shop-box').slideToggle(300);
-})
 
-$('#sign-in-button').on('mouseenter', () => {
+$('#sign-in-button').on('click', () => {
   $('.sign-in-form').slideToggle(300);
 })
 
-$('#sign-in-button').on('mouseleave', () => {
-  $('.sign-in-form').slideToggle(300);
-})
 
-$('#cart-button').on('mouseenter', () => {
+$('#cart-button').on('click', () => {
   $('.cart-container').slideToggle(300);
 })
 
-$('#cart-button').on('mouseleave', () => {
-  $('.cart-container').slideToggle(300);
+$('.fa-angle-double-down').on('click', () => {
+  event.preventDefault();
+  $('.about-us-paragraph').slideToggle(300);
+})
+
+$(document).ready(function() {
+  $('.slider').slick();
 })
 
 });
