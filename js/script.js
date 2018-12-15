@@ -23,7 +23,7 @@ $('#cart-button').on('click', () => {
 
 $('.fa-angle-double-down').on('click', () => {
   event.preventDefault();
-  $('.about-us-paragraph').slideToggle(300);
+  $('.about-us-paragraph').slideToggle(600);
 })
 
 $(document).ready(function() {
