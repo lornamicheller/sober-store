@@ -21,10 +21,16 @@ $('#cart-button').on('click', () => {
   $('.cart-container').slideToggle(300);
 })
 
+$('.product-one').on('mouseenter', () => {
+  $('.prices').slideToggle(300);
+})
+
 $('.fa-angle-double-down').on('click', () => {
   event.preventDefault();
   $('.about-us-paragraph').slideToggle(600);
 })
+
+
 
 $(document).ready(function() {
   $('.slider').slick();
