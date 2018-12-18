@@ -17,7 +17,7 @@ a {
 .background-wrap {
   width: 100%;
   height: 770px;
-  background: url("../images/adult-bag-beauty-model.jpg");
+  background: url("../images/IMG_7026.jpg");
   background-size: cover;
 }
 
@@ -52,33 +52,33 @@ a {
 }
 
 .nav-bar ul li a {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
 .nav-bar ul li:hover {
-  background: rgba(255, 255, 255, 0.372);
+  background: rgba(198, 198, 198, 0.372);
 }
 
 .active {
-  background: rgba(255, 255, 255, 0.372);
+  background: rgba(198, 198, 198, 0.372);
 }
 
 .fa-shopping-cart {
   margin-left: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 12px;
 }
 
 .fa-key {
   margin-left: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 12px;
 }
 
 .fa-shopping-bag {
   margin-left: 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 12px;
 }
 
@@ -88,13 +88,13 @@ a {
   height: auto;
   top: 55px;
   left: 890px;
-  background: rgba(255, 255, 255, 0.372);
+  background: rgba(198, 198, 198, 0.372);
   text-align: center;
   display: none;
 }
 
 .shop-box ul li a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 15px;
   letter-spacing: 2px;
   line-height: 30px;
@@ -114,8 +114,8 @@ a {
   left: 1015px;
   width: 350px;
   height: auto;
-  background: rgba(255, 255, 255, 0.372);
-  color: white;
+  background: rgba(198, 198, 198, 0.372);
+  color: rgb(0, 0, 0);
   font-size: 15px;
   letter-spacing: 2px;
   display: none;
@@ -140,7 +140,7 @@ a {
 }
 
 .sign-in-form h3 a {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 700;
 }
 
@@ -177,8 +177,8 @@ a {
   right: 0;
   width: auto;
   height: auto;
-  background: rgba(255, 255, 255, 0.372);
-  color: white;
+  background: rgba(198, 198, 198, 0.372);
+  color: rgb(0, 0, 0);
   font-size: 15px;
   letter-spacing: 2px;
   padding: 20px 20px;
@@ -255,14 +255,17 @@ a {
   background: rgb(255, 255, 255);
 }
 
-/* .sub-product-one {
+.sub-product-one {
   width: 500px;
-  height: 500px;
-  background: yellow;
+  height: 400px;
+  background: url("../images/white-shirt.jpg");
+  background-size: 500px;
+  background-position: top;
   margin: auto;
   margin-top: 200px;
-  border-radius: 20px;
-} */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
 .product-two {
   width: 50%;
@@ -270,28 +273,48 @@ a {
   background: rgb(228, 228, 228);
 }
 
-/* .sub-product-two {
+.sub-product-two {
   width: 500px;
-  height: 500px;
-  background: yellow;
+  height: 400px;
+  background: url("../images/black-shirt.jpg");
+  background-size: 500px;
+  background-position: top;
   margin: auto;
   margin-top: 200px;
-  border-radius: 20px;
-} */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.arrow-button-1 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50px;
+  left: -350px;
+}
+
+.arrow-button-2 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 50px;
+  left: 370px;
+}
 
 .product-info {
   display: flex;
   width: 100%;
   height: auto;
   padding: 20px 20px;
+  padding-top: 70px;
   font-size: 17px;
   line-height: 25px;
-  display: none;
 }
 
 .price-one {
   margin: auto;
   text-align: center;
+  display: none;
 }
 
 .price-one a {
@@ -301,6 +324,7 @@ a {
 .price-two {
   margin: auto;
   text-align: center;
+  display: none;
 }
 
 .price-two a {
@@ -321,11 +345,14 @@ a {
 
 .sub-product-three {
   width: 500px;
-  height: 500px;
-  background: yellow;
+  height: 400px;
+  background: url("../images/red-shirt.jpg");
+  background-size: 500px;
+  background-position: top;
   margin: auto;
   margin-top: 200px;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .product-four {
@@ -336,9 +363,58 @@ a {
 
 .sub-product-four {
   width: 500px;
-  height: 500px;
-  background: black;
+  height: 400px;
+  background: url("../images/purple-shirt.jpg");
+  background-size: 500px;
+  background-position: top;
   margin: auto;
   margin-top: 200px;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.arrow-button-3 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 750px;
+  left: -350px;
+}
+
+.arrow-button-4 {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 750px;
+  left: 370px;
+}
+
+.product-info-2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 20px 20px;
+  padding-top: 90px;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.price-three {
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+.price-three a {
+  color: black
+}
+
+.price-four {
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+.price-four a {
+  color: black
 }
