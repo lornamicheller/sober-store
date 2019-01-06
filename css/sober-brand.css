@@ -17,7 +17,7 @@ a {
 .background-wrap {
   width: 100%;
   height: 770px;
-  background: url("../images/IMG_7026.jpg");
+  background: url("../images/adult-bag-beauty-model.jpg");
   background-size: cover;
 }
 
@@ -230,7 +230,16 @@ a {
 
 /* products index*/
 
-.shop-container {
+
+
+
+
+
+/* ----------------------------------------- */
+
+
+
+ .shop-container {
   width: 100%;
   height: 400px;
   background: url("../images/pink-girl.jpg");
@@ -238,7 +247,7 @@ a {
   background-position: bottom;
 }
 
-.products {
+/*.products {
   width: 100%;
   height: auto;
 }
@@ -417,4 +426,4 @@ a {
 
 .price-four a {
   color: black
-}
+} */
